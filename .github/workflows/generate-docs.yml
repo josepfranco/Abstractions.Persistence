@@ -23,5 +23,5 @@ jobs:
       - uses: maxheld83/ghpages@master
         name: publish on github pages
         env:
-          BUILD_DIR: docfx_project/_site
+          BUILD_DIR: docs/_site
           GH_PAT: ${{ secrets.GH_PACKAGES_TOKEN }}
