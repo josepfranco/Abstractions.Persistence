@@ -9,19 +9,19 @@ on:
 jobs:
   generate-docs-job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: generates docfx docs
     steps:
       - uses: actions/checkout@v1
         name: checkout repository
         
       - uses: nikeee/docfx-action@v1.0.0
-        name: build documentation with DocFX
+        name: build documentation
         with:
-          args: docs/docfx.json
+          args: docfx_project/docfx.json
 
       # Publish generated site using GitHub Pages
       - uses: maxheld83/ghpages@master
         name: publish on github pages
         env:
           BUILD_DIR: _site
-          GH_PAT: ${{ secrets.GH_PAGES_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PACKAGES_TOKEN }}
