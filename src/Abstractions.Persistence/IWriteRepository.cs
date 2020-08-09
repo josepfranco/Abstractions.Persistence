@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Abstractions.Persistence
@@ -15,16 +16,18 @@ namespace Abstractions.Persistence
         /// Asynchronously inserts the root entity only.
         /// </summary>
         /// <param name="entity">the root entity to insert</param>
+        /// <param name="token">the cancellation token</param>
         /// <returns>a task</returns>
-        Task InsertAsync(TEntity entity);
+        Task InsertAsync(TEntity entity, CancellationToken token = default);
         
         /// <summary>
         /// Asynchronously inserts a range of root entities.
         /// For more information see <see cref="InsertAsync"/>
         /// </summary>
         /// <param name="entities">the enumerable of entities to insert</param>
+        /// <param name="token">the cancellation token</param>
         /// <returns>a task</returns>
-        Task InsertRangeAsync(IEnumerable<TEntity> entities);
+        Task InsertRangeAsync(IEnumerable<TEntity> entities, CancellationToken token = default);
         #endregion
         
         #region UPDATES
@@ -32,16 +35,18 @@ namespace Abstractions.Persistence
         /// Asynchronously updates the root entity only.
         /// </summary>
         /// <param name="entity">the root entity to update</param>
+        /// <param name="token">the cancellation token</param>
         /// <returns>a task</returns>
-        Task UpdateAsync(TEntity entity);
+        Task UpdateAsync(TEntity entity, CancellationToken token = default);
         
         /// <summary>
         /// Asynchronously updates a range of root entities.
         /// For more information see <see cref="UpdateAsync"/>
         /// </summary>
         /// <param name="entities">the enumerable of entities to update</param>
+        /// <param name="token">the cancellation token</param>
         /// <returns>a task</returns>
-        Task UpdateRangeAsync(IEnumerable<TEntity> entities);
+        Task UpdateRangeAsync(IEnumerable<TEntity> entities, CancellationToken token = default);
         #endregion
 
         #region MERGES
@@ -57,16 +62,18 @@ namespace Abstractions.Persistence
         ///    - If child entities exist on the store, and not within the root entity, they are deleted.
         /// </summary>
         /// <param name="entity">the root entity to merge</param>
+        /// <param name="token">the cancellation token</param>
         /// <returns>a task</returns>
-        Task MergeAsync(TEntity entity);
+        Task MergeAsync(TEntity entity, CancellationToken token = default);
 
         /// <summary>
         /// Asynchronously merges the root entities and their child entities.
         /// For more information see <see cref="MergeAsync"/>
         /// </summary>
         /// <param name="entities">the enumerable of entities to merge</param>
+        /// <param name="token">the cancellation token</param>
         /// <returns>a task</returns>
-        Task MergeRangeAsync(IEnumerable<TEntity> entities);
+        Task MergeRangeAsync(IEnumerable<TEntity> entities, CancellationToken token = default);
         #endregion
 
         #region DELETES
@@ -74,16 +81,18 @@ namespace Abstractions.Persistence
         /// Asynchronously deletes the root entity as well as any cascading child entities and associations.
         /// </summary>
         /// <param name="entity">the root entity to delete</param>
+        /// <param name="token">the cancellation token</param>
         /// <returns>a task</returns>
-        Task DeleteAsync(TEntity entity);
+        Task DeleteAsync(TEntity entity, CancellationToken token = default);
         
         /// <summary>
         /// Asynchronously deletes a range of root entities as well as any cascading child entities and associations.
         /// For more information see <see cref="DeleteAsync"/>
         /// </summary>
         /// <param name="entities">the enumerable of entities to delete</param>
+        /// <param name="token">the cancellation token</param>
         /// <returns>a task</returns>
-        Task DeleteAsyncAsync(IEnumerable<TEntity> entities);
+        Task DeleteAsyncAsync(IEnumerable<TEntity> entities, CancellationToken token = default);
         #endregion
     }
 }
