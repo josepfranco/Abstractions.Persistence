@@ -1,2 +1,2 @@
 # Abstractions.Persistence
-Boilerplate abstractions in C# for all persistence operations.
+Boilerplate abstractions and contracts for all persistence operations in C#.
