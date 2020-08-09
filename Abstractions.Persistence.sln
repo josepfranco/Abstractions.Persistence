@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractions.Persistence", "Abstractions.Persistence\Abstractions.Persistence.csproj", "{BB8211AF-92E7-43A1-A8E1-2A7D744840D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractions.Persistence", "src\Abstractions.Persistence\Abstractions.Persistence.csproj", "{BB8211AF-92E7-43A1-A8E1-2A7D744840D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
