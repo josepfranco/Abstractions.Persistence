@@ -5,7 +5,7 @@
         {
           "files": ["**/*.csproj"],
           "exclude": [ "**/bin/**", "**/obj/**" ],
-          "src": "../Abstractions.Persistence/"
+          "src": "../src/Abstractions.Persistence/"
         }
       ],
       "dest": "api",
