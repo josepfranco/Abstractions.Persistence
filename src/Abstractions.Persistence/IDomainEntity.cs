@@ -11,11 +11,11 @@ namespace Abstractions.Persistence
         /// <summary>
         /// The internal identifier for this entity. Usually it's automatically generated.
         /// </summary>
-        long Id { get; }
+        long Id { get; set; }
         
         /// <summary>
         /// The global unique identifier for this entity.
         /// </summary>
-        Guid GlobalId { get; }
+        Guid GlobalId { get; set; }
     }
 }
