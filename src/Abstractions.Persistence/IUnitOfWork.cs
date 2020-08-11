@@ -1,20 +1,27 @@
-using System;
-using System.Threading;
-using System.Threading.Tasks;
-
 namespace Abstractions.Persistence
 {
     /// <summary>
     /// Contract for a service responsible for a unit of work or transaction.
     /// </summary>
-    public interface IUnitOfWork : IAsyncDisposable
+    public interface IUnitOfWork
     {
         /// <summary>
-        /// Commits all the persistence operations into a single transaction.
+        /// Gets a write-only repository instance for a specific entity.
         /// </summary>
-        /// <param name="whoCommitted">identifier or name of the committer, see <see cref="IAuditable"/></param>
-        /// <param name="token">the cancellation token</param>
-        /// <returns>a task</returns>
-        Task CommitAsync(string whoCommitted, CancellationToken token = default);
+        /// <typeparam name="TEntity">the associated entity type</typeparam>
+        /// <returns>instance of write-only repository</returns>
+        IWriteRepository<TEntity> GetRepository<TEntity>() 
+            where TEntity : IDomainEntity;
+
+        /// <summary>
+        /// Begins a new transaction.
+        /// </summary>
+        /// <param name="auditOwner">the name/identifier of the owner of the transaction, <see cref="IAuditable"/></param>
+        void Begin(string auditOwner);
+        
+        /// <summary>
+        /// Commits the ongoing transaction transaction.
+        /// </summary>
+        void Commit();
     }
 }
