@@ -11,7 +11,7 @@ namespace Abstractions.Persistence
         /// <typeparam name="TEntity">the associated entity type</typeparam>
         /// <returns>instance of write-only repository</returns>
         IWriteRepository<TEntity> GetRepository<TEntity>() 
-            where TEntity : IDomainEntity;
+            where TEntity : class, IDomainEntity;
 
         /// <summary>
         /// Begins a new transaction.
