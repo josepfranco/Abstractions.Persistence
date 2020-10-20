@@ -6,7 +6,7 @@
         <!-- NUGET METADATA -->
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <VersionSuffix>alpha</VersionSuffix>
-        <PackageVersion>1.0.3</PackageVersion>
+        <PackageVersion>1.0.4</PackageVersion>
         <Authors>José Franco</Authors>
         <RepositoryUrl>https://github.com/josepfranco/Abstractions.Persistence</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
