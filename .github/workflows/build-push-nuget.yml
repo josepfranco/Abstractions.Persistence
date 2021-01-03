@@ -30,9 +30,10 @@ jobs:
     
     # publish to github packages nuget
     - name: publish to packages
-      run: |
-           for f in ./BUILDS/Release/*.nupkg
-           do
-             curl -vX PUT -u "josepfranco:${{ secrets.GH_PACKAGES_TOKEN }}" -F package=@$f https://nuget.pkg.github.com/josepfranco/
-           done
-      shell: bash
+      # uses: brandedoutcast/publish-nuget@c12b8546b67672ee38ac87bea491ac94a587f7cc
+      uses: brandedoutcast/publish-nuget@v2.5.5
+      with:
+        # Filepath of the project to be packaged, relative to root of repository
+        PROJECT_FILE_PATH: ./BUILDS/Release/
+        NUGET_KEY: ${{ secrets.GH_PACKAGES_TOKEN }}
+        NUGET_SOURCE: https://nuget.pkg.github.com/josepfranco/
