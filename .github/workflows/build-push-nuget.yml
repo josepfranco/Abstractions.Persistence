@@ -14,8 +14,12 @@ jobs:
     - name: checkout repository
       uses: actions/checkout@v1
     
+    # setup dotnet cli
     - name: setup dotnet CLI
-      uses: baruchiro/github-actions@0.0.1
+      uses: actions/setup-dotnet@v1.7.2
+      with:
+        source-url: https://nuget.pkg.github.com/josepfranco/index.json
+        owner: josepfranco
     
     # build the binaries
     - name: build with dotnet
