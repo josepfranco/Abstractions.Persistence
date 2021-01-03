@@ -25,7 +25,7 @@ jobs:
     
     # build the binaries
     - name: build with dotnet
-      run: dotnet build --configuration Release -o './BUILDS/Release/'
+      run: dotnet build --configuration Release
       shell: bash
     
     # pack the binaries into nuget
