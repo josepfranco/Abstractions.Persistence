@@ -1,0 +1,356 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Abstractions.Persistence
+  name: Abstractions.Persistence
+  href: api/Abstractions.Persistence.html
+  commentId: N:Abstractions.Persistence
+  fullName: Abstractions.Persistence
+  nameWithType: Abstractions.Persistence
+- uid: Abstractions.Persistence.IAuditable
+  name: IAuditable
+  href: api/Abstractions.Persistence.IAuditable.html
+  commentId: T:Abstractions.Persistence.IAuditable
+  fullName: Abstractions.Persistence.IAuditable
+  nameWithType: IAuditable
+- uid: Abstractions.Persistence.IAuditable.CreatedAt
+  name: CreatedAt
+  href: api/Abstractions.Persistence.IAuditable.html#Abstractions_Persistence_IAuditable_CreatedAt
+  commentId: P:Abstractions.Persistence.IAuditable.CreatedAt
+  fullName: Abstractions.Persistence.IAuditable.CreatedAt
+  nameWithType: IAuditable.CreatedAt
+- uid: Abstractions.Persistence.IAuditable.CreatedAt*
+  name: CreatedAt
+  href: api/Abstractions.Persistence.IAuditable.html#Abstractions_Persistence_IAuditable_CreatedAt_
+  commentId: Overload:Abstractions.Persistence.IAuditable.CreatedAt
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IAuditable.CreatedAt
+  nameWithType: IAuditable.CreatedAt
+- uid: Abstractions.Persistence.IAuditable.CreatedBy
+  name: CreatedBy
+  href: api/Abstractions.Persistence.IAuditable.html#Abstractions_Persistence_IAuditable_CreatedBy
+  commentId: P:Abstractions.Persistence.IAuditable.CreatedBy
+  fullName: Abstractions.Persistence.IAuditable.CreatedBy
+  nameWithType: IAuditable.CreatedBy
+- uid: Abstractions.Persistence.IAuditable.CreatedBy*
+  name: CreatedBy
+  href: api/Abstractions.Persistence.IAuditable.html#Abstractions_Persistence_IAuditable_CreatedBy_
+  commentId: Overload:Abstractions.Persistence.IAuditable.CreatedBy
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IAuditable.CreatedBy
+  nameWithType: IAuditable.CreatedBy
+- uid: Abstractions.Persistence.IAuditable.ModifiedAt
+  name: ModifiedAt
+  href: api/Abstractions.Persistence.IAuditable.html#Abstractions_Persistence_IAuditable_ModifiedAt
+  commentId: P:Abstractions.Persistence.IAuditable.ModifiedAt
+  fullName: Abstractions.Persistence.IAuditable.ModifiedAt
+  nameWithType: IAuditable.ModifiedAt
+- uid: Abstractions.Persistence.IAuditable.ModifiedAt*
+  name: ModifiedAt
+  href: api/Abstractions.Persistence.IAuditable.html#Abstractions_Persistence_IAuditable_ModifiedAt_
+  commentId: Overload:Abstractions.Persistence.IAuditable.ModifiedAt
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IAuditable.ModifiedAt
+  nameWithType: IAuditable.ModifiedAt
+- uid: Abstractions.Persistence.IAuditable.ModifiedBy
+  name: ModifiedBy
+  href: api/Abstractions.Persistence.IAuditable.html#Abstractions_Persistence_IAuditable_ModifiedBy
+  commentId: P:Abstractions.Persistence.IAuditable.ModifiedBy
+  fullName: Abstractions.Persistence.IAuditable.ModifiedBy
+  nameWithType: IAuditable.ModifiedBy
+- uid: Abstractions.Persistence.IAuditable.ModifiedBy*
+  name: ModifiedBy
+  href: api/Abstractions.Persistence.IAuditable.html#Abstractions_Persistence_IAuditable_ModifiedBy_
+  commentId: Overload:Abstractions.Persistence.IAuditable.ModifiedBy
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IAuditable.ModifiedBy
+  nameWithType: IAuditable.ModifiedBy
+- uid: Abstractions.Persistence.IDomainEntity
+  name: IDomainEntity
+  href: api/Abstractions.Persistence.IDomainEntity.html
+  commentId: T:Abstractions.Persistence.IDomainEntity
+  fullName: Abstractions.Persistence.IDomainEntity
+  nameWithType: IDomainEntity
+- uid: Abstractions.Persistence.IDomainEntity.GlobalId
+  name: GlobalId
+  href: api/Abstractions.Persistence.IDomainEntity.html#Abstractions_Persistence_IDomainEntity_GlobalId
+  commentId: P:Abstractions.Persistence.IDomainEntity.GlobalId
+  fullName: Abstractions.Persistence.IDomainEntity.GlobalId
+  nameWithType: IDomainEntity.GlobalId
+- uid: Abstractions.Persistence.IDomainEntity.GlobalId*
+  name: GlobalId
+  href: api/Abstractions.Persistence.IDomainEntity.html#Abstractions_Persistence_IDomainEntity_GlobalId_
+  commentId: Overload:Abstractions.Persistence.IDomainEntity.GlobalId
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IDomainEntity.GlobalId
+  nameWithType: IDomainEntity.GlobalId
+- uid: Abstractions.Persistence.IDomainEntity.Id
+  name: Id
+  href: api/Abstractions.Persistence.IDomainEntity.html#Abstractions_Persistence_IDomainEntity_Id
+  commentId: P:Abstractions.Persistence.IDomainEntity.Id
+  fullName: Abstractions.Persistence.IDomainEntity.Id
+  nameWithType: IDomainEntity.Id
+- uid: Abstractions.Persistence.IDomainEntity.Id*
+  name: Id
+  href: api/Abstractions.Persistence.IDomainEntity.html#Abstractions_Persistence_IDomainEntity_Id_
+  commentId: Overload:Abstractions.Persistence.IDomainEntity.Id
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IDomainEntity.Id
+  nameWithType: IDomainEntity.Id
+- uid: Abstractions.Persistence.IReadRepository`1
+  name: IReadRepository<TEntity>
+  href: api/Abstractions.Persistence.IReadRepository-1.html
+  commentId: T:Abstractions.Persistence.IReadRepository`1
+  name.vb: IReadRepository(Of TEntity)
+  fullName: Abstractions.Persistence.IReadRepository<TEntity>
+  fullName.vb: Abstractions.Persistence.IReadRepository(Of TEntity)
+  nameWithType: IReadRepository<TEntity>
+  nameWithType.vb: IReadRepository(Of TEntity)
+- uid: Abstractions.Persistence.IReadRepository`1.ReadAllAsync(CancellationToken)
+  name: ReadAllAsync(CancellationToken)
+  href: api/Abstractions.Persistence.IReadRepository-1.html#Abstractions_Persistence_IReadRepository_1_ReadAllAsync_CancellationToken_
+  commentId: M:Abstractions.Persistence.IReadRepository`1.ReadAllAsync(CancellationToken)
+  fullName: Abstractions.Persistence.IReadRepository<TEntity>.ReadAllAsync(CancellationToken)
+  fullName.vb: Abstractions.Persistence.IReadRepository(Of TEntity).ReadAllAsync(CancellationToken)
+  nameWithType: IReadRepository<TEntity>.ReadAllAsync(CancellationToken)
+  nameWithType.vb: IReadRepository(Of TEntity).ReadAllAsync(CancellationToken)
+- uid: Abstractions.Persistence.IReadRepository`1.ReadAllAsync*
+  name: ReadAllAsync
+  href: api/Abstractions.Persistence.IReadRepository-1.html#Abstractions_Persistence_IReadRepository_1_ReadAllAsync_
+  commentId: Overload:Abstractions.Persistence.IReadRepository`1.ReadAllAsync
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IReadRepository<TEntity>.ReadAllAsync
+  fullName.vb: Abstractions.Persistence.IReadRepository(Of TEntity).ReadAllAsync
+  nameWithType: IReadRepository<TEntity>.ReadAllAsync
+  nameWithType.vb: IReadRepository(Of TEntity).ReadAllAsync
+- uid: Abstractions.Persistence.IReadRepository`1.ReadByGlobalIdAsync(Guid,CancellationToken)
+  name: ReadByGlobalIdAsync(Guid, CancellationToken)
+  href: api/Abstractions.Persistence.IReadRepository-1.html#Abstractions_Persistence_IReadRepository_1_ReadByGlobalIdAsync_Guid_CancellationToken_
+  commentId: M:Abstractions.Persistence.IReadRepository`1.ReadByGlobalIdAsync(Guid,CancellationToken)
+  fullName: Abstractions.Persistence.IReadRepository<TEntity>.ReadByGlobalIdAsync(Guid, CancellationToken)
+  fullName.vb: Abstractions.Persistence.IReadRepository(Of TEntity).ReadByGlobalIdAsync(Guid, CancellationToken)
+  nameWithType: IReadRepository<TEntity>.ReadByGlobalIdAsync(Guid, CancellationToken)
+  nameWithType.vb: IReadRepository(Of TEntity).ReadByGlobalIdAsync(Guid, CancellationToken)
+- uid: Abstractions.Persistence.IReadRepository`1.ReadByGlobalIdAsync*
+  name: ReadByGlobalIdAsync
+  href: api/Abstractions.Persistence.IReadRepository-1.html#Abstractions_Persistence_IReadRepository_1_ReadByGlobalIdAsync_
+  commentId: Overload:Abstractions.Persistence.IReadRepository`1.ReadByGlobalIdAsync
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IReadRepository<TEntity>.ReadByGlobalIdAsync
+  fullName.vb: Abstractions.Persistence.IReadRepository(Of TEntity).ReadByGlobalIdAsync
+  nameWithType: IReadRepository<TEntity>.ReadByGlobalIdAsync
+  nameWithType.vb: IReadRepository(Of TEntity).ReadByGlobalIdAsync
+- uid: Abstractions.Persistence.IReadRepository`1.ReadByIdAsync(System.Int64,CancellationToken)
+  name: ReadByIdAsync(Int64, CancellationToken)
+  href: api/Abstractions.Persistence.IReadRepository-1.html#Abstractions_Persistence_IReadRepository_1_ReadByIdAsync_System_Int64_CancellationToken_
+  commentId: M:Abstractions.Persistence.IReadRepository`1.ReadByIdAsync(System.Int64,CancellationToken)
+  fullName: Abstractions.Persistence.IReadRepository<TEntity>.ReadByIdAsync(System.Int64, CancellationToken)
+  fullName.vb: Abstractions.Persistence.IReadRepository(Of TEntity).ReadByIdAsync(System.Int64, CancellationToken)
+  nameWithType: IReadRepository<TEntity>.ReadByIdAsync(Int64, CancellationToken)
+  nameWithType.vb: IReadRepository(Of TEntity).ReadByIdAsync(Int64, CancellationToken)
+- uid: Abstractions.Persistence.IReadRepository`1.ReadByIdAsync*
+  name: ReadByIdAsync
+  href: api/Abstractions.Persistence.IReadRepository-1.html#Abstractions_Persistence_IReadRepository_1_ReadByIdAsync_
+  commentId: Overload:Abstractions.Persistence.IReadRepository`1.ReadByIdAsync
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IReadRepository<TEntity>.ReadByIdAsync
+  fullName.vb: Abstractions.Persistence.IReadRepository(Of TEntity).ReadByIdAsync
+  nameWithType: IReadRepository<TEntity>.ReadByIdAsync
+  nameWithType.vb: IReadRepository(Of TEntity).ReadByIdAsync
+- uid: Abstractions.Persistence.IUnitOfWork
+  name: IUnitOfWork
+  href: api/Abstractions.Persistence.IUnitOfWork.html
+  commentId: T:Abstractions.Persistence.IUnitOfWork
+  fullName: Abstractions.Persistence.IUnitOfWork
+  nameWithType: IUnitOfWork
+- uid: Abstractions.Persistence.IUnitOfWork.Begin(System.String)
+  name: Begin(String)
+  href: api/Abstractions.Persistence.IUnitOfWork.html#Abstractions_Persistence_IUnitOfWork_Begin_System_String_
+  commentId: M:Abstractions.Persistence.IUnitOfWork.Begin(System.String)
+  fullName: Abstractions.Persistence.IUnitOfWork.Begin(System.String)
+  nameWithType: IUnitOfWork.Begin(String)
+- uid: Abstractions.Persistence.IUnitOfWork.Begin*
+  name: Begin
+  href: api/Abstractions.Persistence.IUnitOfWork.html#Abstractions_Persistence_IUnitOfWork_Begin_
+  commentId: Overload:Abstractions.Persistence.IUnitOfWork.Begin
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IUnitOfWork.Begin
+  nameWithType: IUnitOfWork.Begin
+- uid: Abstractions.Persistence.IUnitOfWork.Commit
+  name: Commit()
+  href: api/Abstractions.Persistence.IUnitOfWork.html#Abstractions_Persistence_IUnitOfWork_Commit
+  commentId: M:Abstractions.Persistence.IUnitOfWork.Commit
+  fullName: Abstractions.Persistence.IUnitOfWork.Commit()
+  nameWithType: IUnitOfWork.Commit()
+- uid: Abstractions.Persistence.IUnitOfWork.Commit*
+  name: Commit
+  href: api/Abstractions.Persistence.IUnitOfWork.html#Abstractions_Persistence_IUnitOfWork_Commit_
+  commentId: Overload:Abstractions.Persistence.IUnitOfWork.Commit
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IUnitOfWork.Commit
+  nameWithType: IUnitOfWork.Commit
+- uid: Abstractions.Persistence.IUnitOfWork.GetRepository*
+  name: GetRepository
+  href: api/Abstractions.Persistence.IUnitOfWork.html#Abstractions_Persistence_IUnitOfWork_GetRepository_
+  commentId: Overload:Abstractions.Persistence.IUnitOfWork.GetRepository
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IUnitOfWork.GetRepository
+  nameWithType: IUnitOfWork.GetRepository
+- uid: Abstractions.Persistence.IUnitOfWork.GetRepository``1
+  name: GetRepository<TEntity>()
+  href: api/Abstractions.Persistence.IUnitOfWork.html#Abstractions_Persistence_IUnitOfWork_GetRepository__1
+  commentId: M:Abstractions.Persistence.IUnitOfWork.GetRepository``1
+  name.vb: GetRepository(Of TEntity)()
+  fullName: Abstractions.Persistence.IUnitOfWork.GetRepository<TEntity>()
+  fullName.vb: Abstractions.Persistence.IUnitOfWork.GetRepository(Of TEntity)()
+  nameWithType: IUnitOfWork.GetRepository<TEntity>()
+  nameWithType.vb: IUnitOfWork.GetRepository(Of TEntity)()
+- uid: Abstractions.Persistence.IWriteRepository`1
+  name: IWriteRepository<TEntity>
+  href: api/Abstractions.Persistence.IWriteRepository-1.html
+  commentId: T:Abstractions.Persistence.IWriteRepository`1
+  name.vb: IWriteRepository(Of TEntity)
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity)
+  nameWithType: IWriteRepository<TEntity>
+  nameWithType.vb: IWriteRepository(Of TEntity)
+- uid: Abstractions.Persistence.IWriteRepository`1.DeleteAsync(`0,CancellationToken)
+  name: DeleteAsync(TEntity, CancellationToken)
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_DeleteAsync__0_CancellationToken_
+  commentId: M:Abstractions.Persistence.IWriteRepository`1.DeleteAsync(`0,CancellationToken)
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.DeleteAsync(TEntity, CancellationToken)
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).DeleteAsync(TEntity, CancellationToken)
+  nameWithType: IWriteRepository<TEntity>.DeleteAsync(TEntity, CancellationToken)
+  nameWithType.vb: IWriteRepository(Of TEntity).DeleteAsync(TEntity, CancellationToken)
+- uid: Abstractions.Persistence.IWriteRepository`1.DeleteAsync*
+  name: DeleteAsync
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_DeleteAsync_
+  commentId: Overload:Abstractions.Persistence.IWriteRepository`1.DeleteAsync
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.DeleteAsync
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).DeleteAsync
+  nameWithType: IWriteRepository<TEntity>.DeleteAsync
+  nameWithType.vb: IWriteRepository(Of TEntity).DeleteAsync
+- uid: Abstractions.Persistence.IWriteRepository`1.DeleteAsyncAsync(IEnumerable{`0},CancellationToken)
+  name: DeleteAsyncAsync(IEnumerable<TEntity>, CancellationToken)
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_DeleteAsyncAsync_IEnumerable__0__CancellationToken_
+  commentId: M:Abstractions.Persistence.IWriteRepository`1.DeleteAsyncAsync(IEnumerable{`0},CancellationToken)
+  name.vb: DeleteAsyncAsync(IEnumerable(Of TEntity), CancellationToken)
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.DeleteAsyncAsync(IEnumerable<TEntity>, CancellationToken)
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).DeleteAsyncAsync(IEnumerable(Of TEntity), CancellationToken)
+  nameWithType: IWriteRepository<TEntity>.DeleteAsyncAsync(IEnumerable<TEntity>, CancellationToken)
+  nameWithType.vb: IWriteRepository(Of TEntity).DeleteAsyncAsync(IEnumerable(Of TEntity), CancellationToken)
+- uid: Abstractions.Persistence.IWriteRepository`1.DeleteAsyncAsync*
+  name: DeleteAsyncAsync
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_DeleteAsyncAsync_
+  commentId: Overload:Abstractions.Persistence.IWriteRepository`1.DeleteAsyncAsync
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.DeleteAsyncAsync
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).DeleteAsyncAsync
+  nameWithType: IWriteRepository<TEntity>.DeleteAsyncAsync
+  nameWithType.vb: IWriteRepository(Of TEntity).DeleteAsyncAsync
+- uid: Abstractions.Persistence.IWriteRepository`1.InsertAsync(`0,CancellationToken)
+  name: InsertAsync(TEntity, CancellationToken)
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_InsertAsync__0_CancellationToken_
+  commentId: M:Abstractions.Persistence.IWriteRepository`1.InsertAsync(`0,CancellationToken)
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.InsertAsync(TEntity, CancellationToken)
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).InsertAsync(TEntity, CancellationToken)
+  nameWithType: IWriteRepository<TEntity>.InsertAsync(TEntity, CancellationToken)
+  nameWithType.vb: IWriteRepository(Of TEntity).InsertAsync(TEntity, CancellationToken)
+- uid: Abstractions.Persistence.IWriteRepository`1.InsertAsync*
+  name: InsertAsync
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_InsertAsync_
+  commentId: Overload:Abstractions.Persistence.IWriteRepository`1.InsertAsync
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.InsertAsync
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).InsertAsync
+  nameWithType: IWriteRepository<TEntity>.InsertAsync
+  nameWithType.vb: IWriteRepository(Of TEntity).InsertAsync
+- uid: Abstractions.Persistence.IWriteRepository`1.InsertRangeAsync(IEnumerable{`0},CancellationToken)
+  name: InsertRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_InsertRangeAsync_IEnumerable__0__CancellationToken_
+  commentId: M:Abstractions.Persistence.IWriteRepository`1.InsertRangeAsync(IEnumerable{`0},CancellationToken)
+  name.vb: InsertRangeAsync(IEnumerable(Of TEntity), CancellationToken)
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.InsertRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).InsertRangeAsync(IEnumerable(Of TEntity), CancellationToken)
+  nameWithType: IWriteRepository<TEntity>.InsertRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  nameWithType.vb: IWriteRepository(Of TEntity).InsertRangeAsync(IEnumerable(Of TEntity), CancellationToken)
+- uid: Abstractions.Persistence.IWriteRepository`1.InsertRangeAsync*
+  name: InsertRangeAsync
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_InsertRangeAsync_
+  commentId: Overload:Abstractions.Persistence.IWriteRepository`1.InsertRangeAsync
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.InsertRangeAsync
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).InsertRangeAsync
+  nameWithType: IWriteRepository<TEntity>.InsertRangeAsync
+  nameWithType.vb: IWriteRepository(Of TEntity).InsertRangeAsync
+- uid: Abstractions.Persistence.IWriteRepository`1.MergeAsync(`0,CancellationToken)
+  name: MergeAsync(TEntity, CancellationToken)
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_MergeAsync__0_CancellationToken_
+  commentId: M:Abstractions.Persistence.IWriteRepository`1.MergeAsync(`0,CancellationToken)
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.MergeAsync(TEntity, CancellationToken)
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).MergeAsync(TEntity, CancellationToken)
+  nameWithType: IWriteRepository<TEntity>.MergeAsync(TEntity, CancellationToken)
+  nameWithType.vb: IWriteRepository(Of TEntity).MergeAsync(TEntity, CancellationToken)
+- uid: Abstractions.Persistence.IWriteRepository`1.MergeAsync*
+  name: MergeAsync
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_MergeAsync_
+  commentId: Overload:Abstractions.Persistence.IWriteRepository`1.MergeAsync
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.MergeAsync
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).MergeAsync
+  nameWithType: IWriteRepository<TEntity>.MergeAsync
+  nameWithType.vb: IWriteRepository(Of TEntity).MergeAsync
+- uid: Abstractions.Persistence.IWriteRepository`1.MergeRangeAsync(IEnumerable{`0},CancellationToken)
+  name: MergeRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_MergeRangeAsync_IEnumerable__0__CancellationToken_
+  commentId: M:Abstractions.Persistence.IWriteRepository`1.MergeRangeAsync(IEnumerable{`0},CancellationToken)
+  name.vb: MergeRangeAsync(IEnumerable(Of TEntity), CancellationToken)
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.MergeRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).MergeRangeAsync(IEnumerable(Of TEntity), CancellationToken)
+  nameWithType: IWriteRepository<TEntity>.MergeRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  nameWithType.vb: IWriteRepository(Of TEntity).MergeRangeAsync(IEnumerable(Of TEntity), CancellationToken)
+- uid: Abstractions.Persistence.IWriteRepository`1.MergeRangeAsync*
+  name: MergeRangeAsync
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_MergeRangeAsync_
+  commentId: Overload:Abstractions.Persistence.IWriteRepository`1.MergeRangeAsync
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.MergeRangeAsync
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).MergeRangeAsync
+  nameWithType: IWriteRepository<TEntity>.MergeRangeAsync
+  nameWithType.vb: IWriteRepository(Of TEntity).MergeRangeAsync
+- uid: Abstractions.Persistence.IWriteRepository`1.UpdateAsync(`0,CancellationToken)
+  name: UpdateAsync(TEntity, CancellationToken)
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_UpdateAsync__0_CancellationToken_
+  commentId: M:Abstractions.Persistence.IWriteRepository`1.UpdateAsync(`0,CancellationToken)
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.UpdateAsync(TEntity, CancellationToken)
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).UpdateAsync(TEntity, CancellationToken)
+  nameWithType: IWriteRepository<TEntity>.UpdateAsync(TEntity, CancellationToken)
+  nameWithType.vb: IWriteRepository(Of TEntity).UpdateAsync(TEntity, CancellationToken)
+- uid: Abstractions.Persistence.IWriteRepository`1.UpdateAsync*
+  name: UpdateAsync
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_UpdateAsync_
+  commentId: Overload:Abstractions.Persistence.IWriteRepository`1.UpdateAsync
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.UpdateAsync
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).UpdateAsync
+  nameWithType: IWriteRepository<TEntity>.UpdateAsync
+  nameWithType.vb: IWriteRepository(Of TEntity).UpdateAsync
+- uid: Abstractions.Persistence.IWriteRepository`1.UpdateRangeAsync(IEnumerable{`0},CancellationToken)
+  name: UpdateRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_UpdateRangeAsync_IEnumerable__0__CancellationToken_
+  commentId: M:Abstractions.Persistence.IWriteRepository`1.UpdateRangeAsync(IEnumerable{`0},CancellationToken)
+  name.vb: UpdateRangeAsync(IEnumerable(Of TEntity), CancellationToken)
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.UpdateRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).UpdateRangeAsync(IEnumerable(Of TEntity), CancellationToken)
+  nameWithType: IWriteRepository<TEntity>.UpdateRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  nameWithType.vb: IWriteRepository(Of TEntity).UpdateRangeAsync(IEnumerable(Of TEntity), CancellationToken)
+- uid: Abstractions.Persistence.IWriteRepository`1.UpdateRangeAsync*
+  name: UpdateRangeAsync
+  href: api/Abstractions.Persistence.IWriteRepository-1.html#Abstractions_Persistence_IWriteRepository_1_UpdateRangeAsync_
+  commentId: Overload:Abstractions.Persistence.IWriteRepository`1.UpdateRangeAsync
+  isSpec: "True"
+  fullName: Abstractions.Persistence.IWriteRepository<TEntity>.UpdateRangeAsync
+  fullName.vb: Abstractions.Persistence.IWriteRepository(Of TEntity).UpdateRangeAsync
+  nameWithType: IWriteRepository<TEntity>.UpdateRangeAsync
+  nameWithType.vb: IWriteRepository(Of TEntity).UpdateRangeAsync
