@@ -17,6 +17,8 @@ jobs:
     # setup dotnet cli
     - name: setup dotnet CLI
       uses: actions/setup-dotnet@v1.7.2
+      env:
+        NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         source-url: https://nuget.pkg.github.com/josepfranco/index.json
         owner: josepfranco
