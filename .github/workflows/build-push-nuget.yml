@@ -30,7 +30,7 @@ jobs:
     
     # pack the binaries into nuget
     - name: pack with dotnet
-      run: dotnet pack --configuration Release --version-suffix '.${{ $GITHUB_RUN_NUMBER }}' --output './BUILDS/Release/'
+      run: dotnet pack --configuration Release --version-suffix '.${{ github.run_number }}' --output './BUILDS/Release/'
       shell: bash
     
     # publish to github packages nuget
