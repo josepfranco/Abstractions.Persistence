@@ -10,7 +10,7 @@ namespace Abstractions.Persistence
     /// For more information see <see cref="IDomainEntity"/>.
     /// </summary>
     /// <typeparam name="TEntity">the type of the entity managed by this repository</typeparam>
-    public interface IReadRepository<TEntity> where TEntity : IDomainEntity
+    public interface IReadRepository<TEntity> where TEntity : class, IDomainEntity
     {
         /// <summary>
         /// Reads a single entity asynchronously by its internal identifier.

@@ -9,7 +9,7 @@ namespace Abstractions.Persistence
     /// For more information see <see cref="IDomainEntity"/>
     /// </summary>
     /// <typeparam name="TEntity">the type of the entity managed by this repository</typeparam>
-    public interface IWriteRepository<in TEntity> where TEntity : IDomainEntity
+    public interface IWriteRepository<in TEntity> where TEntity : class, IDomainEntity
     {
         #region INSERTS
         /// <summary>
